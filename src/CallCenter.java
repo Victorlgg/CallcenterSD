@@ -9,6 +9,19 @@ public boolean eliminarCuenta(String password) throws java.rmi.RemoteException;
 public String adicionarDinero( int cantidad) throws java.rmi.RemoteException;
 public String retirarDinero( int cantidad) throws java.rmi.RemoteException;
 public double ObtenerSaldo() throws java.rmi.RemoteException; 
+/*
+boolean iniciarSesion
+void agregarLlamadaCola
+boolean asignarLlamada
+void agregarLlamadaColaEspera
+boolean registrarLlamada
+void contestarLlamada
+void colgarLlamada
+void llamarCallCenter
+boolean registrarse
+boolean modificarDatos
 
+
+*/
 }
 
